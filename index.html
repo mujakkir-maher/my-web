@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <article class="card">
+        <img id="card_img" class="card_img" src="./bike.jpg" alt="Bike">
+        <h2 class="card_title">How to build a website?</h2>
+        <p class="card_desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, incidunt! Numquam error
+            dignissimos nulla commodi!</p>
+        <button class="card_cta">Read More</button>
+    </article>
+
+    <h1>Hello world</h1>
+    <h2>Hello world</h2>
+    <h3>Hello world</h3>
+    <h4>Hello world</h4>
+    <p>Lorem ipsum dolor sit amet <b>consectetur</b> <strong>adipisicing</strong> elit. <i>Deserunt</i>, <u>quidem!</u>
+    </p>
+
+    <ul>
+        <li>Link1</li>
+        <li>Link2</li>
+        <li>Link3</li>
+        <li>Link4</li>
+        <li>Link5</li>
+        <li>Link6</li>
+    </ul>
+    <ol type="i">
+        <li>Link1</li>
+        <li>Link2</li>
+        <li>Link3
+            <ol type="A">
+                <li>Sublink1</li>
+                <li>Sublink2</li>
+                <li>Sublink3</li>
+                <li>Sublink4</li>
+                <li>Sublink5</li>
+            </ol>
+        </li>
+        <li>Link4</li>
+        <li>Link5</li>
+        <li>Link6</li>
+    </ol>
+
+    <a target="_blank" href="https://google.com">Google</a>
+
+    <div>
+        <h1>Class room</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptatibus?</p>
+        <ul>
+            <li><a href="">Link1</a></li>
+            <li><a href="">Link2</a></li>
+            <li><a href="">Link3</a></li>
+            <li><a href="">Link4</a></li>
+            <li><a href="">Link5</a></li>
+        </ul>
+    </div>
+
+
+    <header>Header</header>
+    <main>Main</main>
+    <footer>Footer</footer>
+
+
+    <a href="https://bikereview.com/bike">
+        <img src="./bike.jpg" alt="bike" width="200">
+    </a>
+
+    <marquee behavior="" direction="left">mahid</marquee>
+
+    <script>
+        const btn = document.querySelector('.card_cta');
+        btn.onclick = function () {
+            document.body.style.background = 'blue'
+        }
+    </script>
+</body>
+
+</html>
